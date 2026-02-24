@@ -16,7 +16,7 @@ form.addEventListener("submit", async function (e) {
 
     try {
 
-        const res = await fetch("http://localhost:5000/register", {
+        const res = await fetch(" https://khushal-312b.onrender.com/register", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(data)
